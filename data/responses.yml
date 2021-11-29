@@ -1,0 +1,64 @@
+responses:
+  utter_greet:
+  - text: "Hai, ada yang bisa dibantu?"
+
+  utter_greet_2:
+  - text: "Waalaikumsalam"
+
+  utter_goodbye:
+  - text: "Silahkan hubungi kami kembali jika perlu bantuan"
+
+  utter_reset_email:
+  - text: "Untuk reset password diubah melalui UIIGateway, keterangan lebih lanjut dapat diakses pada laman berikut https://bsi.uii.ac.id/aktivasi-reset-akun/"
+  
+  utter_vpn_access:
+  - text: "Silahkan kunjungi laman https://bsi.uii.ac.id/virtual-private-network/ atau datang langsung ke BSI UII untuk keterangan lebih lanjut"
+  
+  utter_account_uii:
+  - text: "Akun UII  diberikan bagi masing-masing mahasiswa, dosen, dan staf selama mereka berstatus aktif kuliah/bekerja di UII. Bagi mahasiswa, akun ini akan diberikan setelah melakukan registrasi akhir dan tercatat resmi sebagai mahasiswa baru UII. Untuk info lebih lanjut kunjungi laman bsi.uii.ac.id atau datang langsung ke kantor BSI UII"
+
+  utter_reset_vpn:
+  - text: "Silahkan kunjungi laman https://bsi.uii.ac.id/virtual-private-network/ atau datang langsung ke BSI UII untuk keterangan lebih lanjut"
+
+  utter_vpn_notconnected:
+  - text: "Hubungi IT Support BSI melalui Email: itsupport@uii.ac.id WA: 08124441414 atau datang langsung ke BSI UII"
+
+  utter_office_license:
+  - text: "Untuk master installasi dapat diunduh pada tautan di bawah ini dan silahkan untuk melakukan installasi sendiri pada device anda.
+        https://drive.google.com/open?id=0Bzk5PmVowekeZ3E4QXRmdkpNZGM"
+  - text: "Khusus untuk mahasiswa aktif (mulai tahun 2021) mendapatkan lisensi Office 365 dengan mengajukan dan mengisi formulir di uii.id/LisensiMicrosoft
+        atau dapat juga datang langsun ke ITSupport/ Sekretariat BSI gedung Rektorat UII lantai 4 dengan membawa KTM sebagai tanda bukti Anda sebagai mahasiswa"
+  
+  utter_uiiprint_access:
+  - text: "Silahkan kunjungi laman berikut untuk panduan layanan UIIPrint https://bsi.uii.ac.id/uiiprint-mobility-print/"
+
+  utter_uiiprint_bill:
+  - text: "Info tarif layanan UIIPrint dapat dilihat pada halaman berikut https://bsi.uii.ac.id/uiiprint-mobility-print/#tab-id-2"
+  - text: "Melakukan isi ulang kuota untuk mahasiswa silakan langsung saja datangi loket Bank Mandiri yang berada di lingkungan UII, sementara untuk staf dan dosen silakan hubungi kami di itsupport@uii.ac.id atau bisa datang langsung ke kantor kami."
+  
+  utter_uiiprint_trouble:
+  - text: "Mohon maaf atas ketidak nyamanannya, silahkan hubungi kami di itsupport@uii.ac.id."
+
+  utter_internet_access:
+  - text: "Mahasiswa, dosen, dan staf aktif di lingkungan UII dapat mengakses UIIConnect dengan menggunakan Akun UII masing-masing. Sedangkan untuk tamu yang berkunjung di UII, akses Internet dilayani melalui fasilitas UIIGuest. Untuk setting wifi silahkan kunjungi laman https://bsi.uii.ac.id/akses-internet/panduan-koneksi-uiiconnect/ dan https://bsi.uii.ac.id/akses-internet/eduroam/ untuk koneksi ke eduroam"
+
+  utter_internet_trouble:
+  - text: "Silahkan hubungi IT Support BSI melalui Email: itsupport@uii.ac.id WA: 08124441414 atau datang langsung ke BSI UII untuk mendapatkan penanganan lebih lanjut"
+
+  utter_website_down:
+  - text: "Silahkan hubungi IT Support BSI melalui Email: itsupport@uii.ac.id WA: 08124441414 atau datang langsung ke BSI UII untuk mendapatkan penanganan lebih lanjut"
+
+  utter_vps_request:
+  - text: "Silahkan ajukan permohonan vps melalui Email: itsupport@uii.ac.id"
+
+  utter_vps_tutorial:
+  - text: "Silahkan cek tutorial berikut "
+
+  utter_vps_access:
+  - text: "Silahkan hubungi IT Support BSI melalui Email: itsupport@uii.ac.id WA: 08124441414 atau datang langsung ke BSI UII untuk mendapatkan penanganan lebih lanjut"
+
+  utter_subdomain_request:
+  - text: "Silahkan ajukan permohonan pembuatan subdomain melalui Email: itsupport@uii.ac.id"
+  
+  utter_zoom_request:
+  - text: "Silahkan simak tutorial di laman berikut https://bsi.uii.ac.id/panduan-penggunaan-zoom-meeting/"

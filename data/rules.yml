@@ -1,0 +1,88 @@
+version: "2.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: ask email
+  steps:
+  - intent: reset_email
+  - action: utter_reset_email
+
+- rule: ask vpn
+  steps:
+  - intent: vpn_access
+  - action: utter_vpn_access
+
+- rule: ask account
+  steps:
+  - intent: uii_account
+  - action: utter_account_uii
+
+- rule: greet assalamualaikum
+  steps:
+  - intent: greet_2
+  - action: utter_greet_2
+
+- rule: reset vpn
+  steps:
+  - intent: vpn_notconnected
+  - action: utter_vpn_notconnected
+
+- rule: ask license
+  steps:
+  - intent: office_license
+  - action: utter_office_license
+
+- rule: ask uiiprint access
+  steps:
+  - intent: uiiprint_access
+  - action: utter_uiiprint_access
+
+- rule: ask uiiprint bill
+  steps:
+  - intent: uiiprint_bill
+  - action: utter_uiiprint_bill
+
+- rule: uiiprint trouble
+  steps:
+  - intent: uiiprint_trouble
+  - action: utter_uiiprint_trouble
+
+- rule: ask internet access
+  steps:
+  - intent: internet_access
+  - action: utter_internet_access
+
+- rule: trouble internet
+  steps:
+  - intent: internet_trouble
+  - action: utter_internet_trouble
+
+- rule: website down
+  steps:
+  - intent: website_down
+  - action: utter_website_down
+
+- rule: request vps
+  steps:
+  - intent: vps_request
+  - action: utter_vps_request
+
+- rule: tutorial vps
+  steps:
+  - intent: vps_tutorial
+  - action: utter_vps_tutorial
+
+- rule: request subdomain
+  steps:
+  - intent: subdomain_request
+  - action: utter_subdomain_request
+
+- rule: request zoom
+  steps:
+  - intent: zoom_request
+  - action: utter_zoom_request

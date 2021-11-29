@@ -1,0 +1,146 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - selamat siang
+    - selamat sore
+    - selamat malam
+
+- intent: greet_2
+  examples: |
+    - assalamualaikum
+    - salam
+
+- intent: goodbye
+  examples: |
+    - terimakasih
+    - baik, terimakasih
+
+- intent: affirm
+  examples: |
+    - ya
+    - iya
+    - benar
+
+- intent: deny
+  examples: |
+    - tidak
+    - bukan
+
+- intent: reset_email
+  examples: |
+    - saya tidak bisa akses email
+    - saya lupa password email saya
+    - lupa password email
+    - password email saya apa ya?
+    - bagaimana cara reset password email?
+
+- intent: vpn_access
+  examples: |
+    - cara akses vpn bagaimana?
+    - cara pakai vpn
+    - cara request akun vpn
+    - edu vpn itu aksesnya dimana ya?
+    - akun eduvpn dimana ya saya bisa dapat?
+    - dimana saya dapat mengunduh perangkat lunak eduvpn?
+    - dimana saya dapat mengunduh software eduvpn?
+    - bagaimana cara install eduvpn?
+    - bagaimana cara menggunakan eduvpn?
+    - apakah ada tutorial/panduan penggunaan eduvpn?
+
+- intent: uii_account
+  examples: |
+    - Bagaimana mendapatkan akun UII?
+    - minta akun UII
+
+- intent: reset_vpn
+  examples: |
+    - bagaimana cara reset password vpn?
+    - saya lupa akun dan password vpn
+    - akun dan password vpn saya apa ya?
+
+- intent: vpn_notconnected
+  examples: |
+    - vpn saya tidak dapat terhubung
+    - gagal connect ke vpn
+    - saya tidak bisa menginstal openvpn
+    - tidak bisa akses padahal sudah import file vpn
+
+- intent: office_license
+  examples: |
+    - cara untuk aktivasi lisensi office gimana ya?
+    - lisensi microsoft office
+    - untuk dapat lisensi office saya harus kemana ya?
+    - download office dimana ya?
+    - bagaimana caranya dapat lisensi office?
+    - saya ingin aktivasi windows
+
+- intent: uiiprint_access
+  examples: |
+    - bagaimana cara menggunakan uiiprint?
+    - dimana saya dapat meminta akses uiiprint?
+    - dimana saja letak uiiprint?
+    - apakah ada tutorial penggunaan UIIPrint?
+
+- intent: uiiprint_bill
+  examples: |
+    - apakah dikenakan biaya untuk mahasiswa?
+    - apakah dikenakan biaya untuk karyawan?
+    - bagaimana cara top up saldo uiiprint?
+    - berapa biaya untuk ngeprint?
+    - minimal top up uiiprint berapa ya?
+
+- intent: uiiprint_trouble
+  examples: |
+    - print mati
+    - print macet
+    - print tidak dapat mengeluarkan kertas
+
+- intent: internet_access
+  examples: |
+    - bagaimana cara akses wifi uii?
+    - bagaimana cara akses eduroam?
+    - bagaimana cara akses UIIConnect?
+    - minta akses wifi
+    - dimana saya dapat meminta akses wifi?
+
+- intent: internet_trouble
+  examples: |
+    - saya tidak dapat tersambung ke wifi
+    - wifinya lemot
+
+- intent: website_down
+  examples: |
+    - saya akses website uii.ac.id kok lemot ya
+    - website tidak bisa diakses
+
+- intent: vps_request
+  examples: |
+    - dimana saya dapat request vps
+    - bagaimana caranya request vps
+
+- intent: vps_tutorial
+  examples: |
+    - bagaimana caranya menggunakan vps
+    - apakah ada tutorial menggunakan vps
+
+- intent: vps_access
+  examples: |
+    - saya lupa user dan password vps
+    - gimana ya caranya reset password?
+    - tidak bisa akses vps
+    - gagal login ke vps
+
+- intent: subdomain_request
+  examples: |
+    - bagaimana caranya meminta subdomain
+    - dimana saya dapat request subdomain
+
+- intent: zoom_request
+  examples: |
+    - dimana saya dapat request akun zoom
+    - bagaimana caranya mendapatkan akun zoom
