@@ -9,6 +9,7 @@ nlu:
     - selamat siang
     - selamat sore
     - selamat malam
+    - hai
 
 - intent: greet_2
   examples: |
@@ -19,17 +20,25 @@ nlu:
   examples: |
     - terimakasih
     - baik, terimakasih
+    - oke
+    - ok
+    - siap
+    - makasih banyak
+    - mks
 
 - intent: affirm
   examples: |
     - ya
     - iya
     - benar
+    - iy
+    - y
 
 - intent: deny
   examples: |
     - tidak
     - bukan
+    - tdk
 
 - intent: reset_email
   examples: |
@@ -38,6 +47,11 @@ nlu:
     - lupa password email
     - password email saya apa ya?
     - bagaimana cara reset password email?
+    - reset akun UII
+    - tidak bisa connect ke gateway
+    - saya ingin reset password
+    - saya tidak bisa log in
+    - lupa password
 
 - intent: vpn_access
   examples: |
@@ -144,3 +158,6 @@ nlu:
   examples: |
     - dimana saya dapat request akun zoom
     - bagaimana caranya mendapatkan akun zoom
+
+- intent: nlu_fallback
+  examples: |

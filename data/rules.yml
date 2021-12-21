@@ -86,3 +86,8 @@ rules:
   steps:
   - intent: zoom_request
   - action: utter_zoom_request
+
+- rule: Ask the user to rephase whenever they send a message with flow NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_confuse

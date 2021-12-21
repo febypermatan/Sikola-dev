@@ -22,6 +22,7 @@ intents:
   - vps_tutorial
   - subdomain_request
   - zoom_request
+  - nlu_fallback
 
 # Comment:
 #
@@ -40,10 +41,10 @@ responses:
   - text: "Waalaikumsalam"
   
   utter_goodbye:
-  - text: "Bye"
+  - text: "Jika ada pertanyaan lain silahkan hubungi kami kembali"
 
   utter_reset_email:
-  - text: "Untuk reset password diubah melalui UIIGateway, keterangan lebih lanjut dapat diakses pada laman berikut https://bsi.uii.ac.id/aktivasi-reset-akun/"
+  - text: "Untuk reset password mandiri melalui gateway.uii.ac.id di menu lupa password. Pastikan nomor yang ada pada UIIGateway adalah nomor whatsapp anda yang aktif. Password harus sesuai dengan ketentuan yaitu password minimal 8 karakter, harus terdiri dari angka, satu huruf besar, dan simbol berupa @, ., atau !, keterangan lebih lanjut dapat diakses pada laman berikut https://bsi.uii.ac.id/aktivasi-reset-akun/"
 
   utter_vpn_access:
   - text: "Silahkan kunjungi laman https://bsi.uii.ac.id/virtual-private-network/ atau datang langsung ke BSI UII untuk keterangan lebih lanjut"
@@ -86,6 +87,9 @@ responses:
   
   utter_zoom_request:
   - text: "Silahkan simak tutorial di laman berikut https://bsi.uii.ac.id/panduan-penggunaan-zoom-meeting/"
+
+  utter_confuse:
+  - text: "Mohon maaf, silahkan kirim pertanyaan secara detail dengan menghubungi kami melalui Email: itsupport@uii.ac.id atau WA: 08124441414 atau datang langsung ke BSI UII"
 
 session_config:
   session_expiration_time: 60
