@@ -81,7 +81,7 @@ responses:
   - text: "Silahkan ajukan permohonan vps melalui Email: itsupport@uii.ac.id"
 
   utter_vps_tutorial:
-  - text: "Silahkan cek tutorial berikut https://docs.google.com/document/d/1kSEeeXJ5_PnU6R1S359j3sBz04sEbOmAZihUlZY_7Wk/edit"
+  - text: "Silahkan cek tutorial berikut"
 
     utter_vps_access:
   - text: "Silahkan hubungi IT Support BSI melalui Email: itsupport@uii.ac.id WA: 08124441414 atau datang langsung ke BSI UII untuk mendapatkan penanganan lebih lanjut"
