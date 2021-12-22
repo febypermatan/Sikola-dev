@@ -20,6 +20,7 @@ intents:
   - website_down
   - vps_request
   - vps_tutorial
+  - vps_access
   - subdomain_request
   - zoom_request
   - nlu_fallback
