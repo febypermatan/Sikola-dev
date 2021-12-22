@@ -83,6 +83,8 @@ nlu:
     - gagal connect ke vpn
     - saya tidak bisa menginstal openvpn
     - tidak bisa akses padahal sudah import file vpn
+    - saya tidak bisa connect vpn
+    - tidak bisa konek vpn
 
 - intent: office_license
   examples: |

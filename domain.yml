@@ -56,7 +56,7 @@ responses:
   - text: "Hubungi IT Support BSI melalui Email: itsupport@uii.ac.id WA: 08124441414 atau datang langsung ke BSI UII"
 
   utter_office_license:
-  - text: "Untuk master installasi dapat diunduh pada tautan di bawah ini dan silahkan untuk melakukan installasi sendiri pada device anda https://drive.google.com/open?id=0Bzk5PmVowekeZ3E4QXRmdkpNZGM. Khusus untuk mahasiswa aktif (mulai tahun 2021) mendapatkan lisensi Office 365 dengan mengajukan dan mengisi formulir di uii.id/LisensiMicrosoft atau dapat juga datang langsun ke ITSupport/ Sekretariat BSI gedung Rektorat UII lantai 4 dengan membawa KTM sebagai tanda bukti Anda sebagai mahasiswa"
+  - text: "Untuk master installasi dapat diunduh pada tautan di bawah ini dan silahkan untuk melakukan installasi sendiri pada device anda https://drive.google.com/open?id=0Bzk5PmVowekeZ3E4QXRmdkpNZGM. Khusus untuk mahasiswa aktif (mulai tahun 2021) mendapatkan lisensi Office 365 dengan mengajukan dan mengisi formulir di uii.id/LisensiMicrosoft atau dapat juga datang langsung ke ITSupport/ Sekretariat BSI gedung Rektorat UII lantai 4 dengan membawa KTM sebagai tanda bukti Anda sebagai mahasiswa"
   
   utter_uiiprint_access:
   - text: "Silahkan kunjungi laman berikut untuk panduan layanan UIIPrint https://bsi.uii.ac.id/uiiprint-mobility-print/"
@@ -80,7 +80,10 @@ responses:
   - text: "Silahkan ajukan permohonan vps melalui Email: itsupport@uii.ac.id"
 
   utter_vps_tutorial:
-  - text: "Silahkan cek tutorial berikut "
+  - text: "Silahkan cek tutorial berikut https://docs.google.com/document/d/1kSEeeXJ5_PnU6R1S359j3sBz04sEbOmAZihUlZY_7Wk/edit"
+
+    utter_vps_access:
+  - text: "Silahkan hubungi IT Support BSI melalui Email: itsupport@uii.ac.id WA: 08124441414 atau datang langsung ke BSI UII untuk mendapatkan penanganan lebih lanjut"
 
   utter_subdomain_request:
   - text: "Silahkan ajukan permohonan pembuatan subdomain melalui Email: itsupport@uii.ac.id"

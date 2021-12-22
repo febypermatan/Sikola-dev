@@ -77,6 +77,11 @@ rules:
   - intent: vps_tutorial
   - action: utter_vps_tutorial
 
+- rule: vps access
+  steps:
+  - intent: vps_access
+  - action: utter_vps_access
+
 - rule: request subdomain
   steps:
   - intent: subdomain_request
